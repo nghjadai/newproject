@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>QR LandingPage</title>
+	<link rel="stylesheet" href="">
+	<style>
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.parent {
+    width: 264px;
+    border: 1px solid grey;
+        border-bottom: 19px solid red;
+    border-radius: 5px 5px 5px 0;
+}
+.topImg {
+    position: relative;
+}
+.topImg>h3 {
+    text-align: center;
+    color: black;
+    font-size: 31px;
+    line-height: 31px;
+    margin-top: 32px;
+}
+.topImg>img {
+    position: absolute;
+    top: -13px;
+    left: 40%;
+}
+p.textDescription {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+p.textDescription>span {
+    font-size: 23px;
+}
+p.textDescription1 {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 13px;
+}
+button#btnButton {
+    background-color: #EE0033;
+    display: block;
+    width: 225px;
+    height: 31px;
+    border-radius: 14px;
+    border: none;
+    margin: 15px;
+    text-align: center;
+    color: #fff;
+}
+a#btnDetail {
+    /* background-color: #EE0033; */
+    display: block;
+    width: 107px;
+    height: 31px;
+    border-radius: 5px 5px 5px 0;
+    border: 1px solid #EE0033;
+    margin: 15px;
+    margin-left: 26%;
+    text-align: center;
+    color: #EE0033;
+}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="text1">
+			<div class="topImg">
+				<h3>V200N</h3>
+				<img src="Vector (1).png" alt="">
+			</div>
+			<p class="textDescription">200.000đ<span>/tháng</span></p>
+			<p class="textDescription1">Giá: 200.000đ/tháng 1. Chính sách gói cước - Miễn phí 20 phút đầu tiên/cuộc gọi nội mạng, 100 ...</p>
+		</div>
+		<div class="button">
+			<button id="btnButton">Đăng ký</button>
+			<a href="#" id="btnDetail">Chi tiết</a>
+		</div>
+	</div>
+</body>
+</html>
