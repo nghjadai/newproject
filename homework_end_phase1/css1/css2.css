@@ -917,7 +917,7 @@ ul.header__navbar-down-option {
         top: 680px;
         display: none;
     }
-
+    /*reset css*/
     .contain__content-history__content {
         display: flex;
         justify-content: space-between;
@@ -926,10 +926,25 @@ ul.header__navbar-down-option {
         flex-direction: row;
         display: none;
     }
-
-    
-
-
+    .contain__content>div{
+        position: unset;
+    }
+    .contain__content>ul{
+        display: block;
+    }
+    .contain__content>ul>li{
+        position: unset;
+    }
+    .contain__content>ul>li>span{
+        position: unset;
+    }
+    .contain__content>span{
+        position: unset;
+    }
+    .contain__content{
+        width: unset;
+    }
+    /*end reset css*/
     /*end cho phan body*/
 
 }
@@ -941,7 +956,7 @@ ul.header__navbar-down-option {
 }
 
 .header__navbar-up {
-    width: 1200;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -949,4 +964,5 @@ ul.header__navbar-down-option {
 ul.header__navbar-down-option > li {
     line-height: 59px;
 }
+
 
