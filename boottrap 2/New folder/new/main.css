@@ -111,3 +111,38 @@
 }
 
 /* end mobile đã đăng nhập */
+
+/*huyvq fix homework*/
+.bannerTop {
+    background-color: #fbfbfb;
+    padding-bottom: 60px;
+}
+.imgBannerTop>p {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+h3.text-h3.text-center {
+    padding: 25px 0 29px 0;
+}
+.contain-xl {
+    background-color: #EEEEEE;
+}
+.contain-xl>.container>.row{
+    margin-bottom: 40px;
+}
+.buy-sim img{
+    width: 100%;
+}
+@media (min-width: 768px){
+    .favor>.row>.col-md-6{
+        margin-bottom: 30px;
+    }
+}
+/*css for mobile */
+@media (max-width: 768px) {
+    .favor{
+        display: none;
+    }
+}
+/*huyvq fix homework*/
