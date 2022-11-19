@@ -947,6 +947,19 @@ ul.header__navbar-down-option {
     /*end reset css*/
     /*end cho phan body*/
 
+    /* css cho phần footer */
+    .footer {
+        height: unset;
+    }
+
+    .column {
+        display: none;
+    }
+
+    .column:nth-child(1) {
+        display: block;
+    }
+    /* end phần footer */
 }
 
 @media (min-width: 767.98px) {
